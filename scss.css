@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+.container__progressbars {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 270px;
+  width: 100%;
+  min-height: 100%;
+}
+
+.progressbar {
+  position: relative;
+  width: 170px;
+  height: 170px;
+  margin: 1em;
+  transform: rotate(-90deg);
+}
+
+.progressbar__svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.progressbar__svg-circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 20;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  stroke:#24252A ;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+
+
+.circle-html {
+  -webkit-animation: anim_circle-html 3s linear forwards;
+          animation: anim_circle-html 3s linear forwards;
+}
+.circle-css {
+  -webkit-animation: anim_circle-css 3s linear forwards;
+          animation: anim_circle-css 3s linear forwards;
+}
+.circle-scss {
+  -webkit-animation: anim_circle-scss 3s linear forwards;
+          animation: anim_circle-scss 3s linear forwards;
+}
+.circle-js {
+  -webkit-animation: anim_circle-js 3s linear forwards;
+          animation: anim_circle-js 3s linear forwards;
+}
+.circle-ts {
+  -webkit-animation: anim_circle-ts 3s linear forwards;
+          animation: anim_circle-ts 3s linear forwards;
+}
+.circle-node {
+  -webkit-animation: anim_circle-node 3s linear forwards;
+          animation: anim_circle-node 3s linear forwards;
+}
+.circle-react {
+  -webkit-animation: anim_circle-react 3s linear forwards;
+          animation: anim_circle-react 3s linear forwards;
+}
+.circle-angular {
+  -webkit-animation: anim_circle-angular 3s linear forwards;
+          animation: anim_circle-angular 3s linear forwards;
+}
+.circle-vue {
+  -webkit-animation: anim_circle-vue 3s linear forwards;
+          animation: anim_circle-vue 3s linear forwards;
+}
+
+.progressbar__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0.25em 0.5em;
+  color: black(0deg, 0%, 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 0.25em;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+@-webkit-keyframes anim_circle-html {
+  to {
+    stroke-dashoffset: 234;
+  }
+}
+
+@keyframes anim_circle-html {
+  to {
+    stroke-dashoffset: 234;
+  }
+}
+@-webkit-keyframes anim_circle-css {
+  to {
+    stroke-dashoffset: 234;
+  }
+}
+@keyframes anim_circle-css {
+  to {
+    stroke-dashoffset: 234;
+  }
+}
+@-webkit-keyframes anim_circle-scss {
+  to {
+    stroke-dashoffset: 356;
+  }
+}
+@keyframes anim_circle-scss {
+  to {
+    stroke-dashoffset: 356;
+  }
+}
+@-webkit-keyframes anim_circle-js {
+  to {
+    stroke-dashoffset: 356;
+  }
+}
+@keyframes anim_circle-js {
+  to {
+    stroke-dashoffset: 356;
+  }
+}
+@-webkit-keyframes anim_circle-ts {
+  to {
+    stroke-dashoffset: 356;
+  }
+}
+@keyframes anim_circle-ts {
+  to {
+    stroke-dashoffset: 356;
+  }
+}
+@-webkit-keyframes anim_circle-node {
+  to {
+    stroke-dashoffset: 308;
+  }
+}
+@keyframes anim_circle-node {
+  to {
+    stroke-dashoffset: 308;
+  }
+}
+@-webkit-keyframes anim_circle-react {
+  to {
+    stroke-dashoffset: 387.2;
+  }
+}
+@keyframes anim_circle-react {
+  to {
+    stroke-dashoffset: 387.2;
+  }
+}
+@-webkit-keyframes anim_circle-angular {
+  to {
+    stroke-dashoffset: 418;
+  }
+}
+@keyframes anim_circle-angular {
+  to {
+    stroke-dashoffset: 418;
+  }
+}
+@-webkit-keyframes anim_circle-vue {
+  to {
+    stroke-dashoffset: 431.2;
+  }
+}
+@keyframes anim_circle-vue {
+  to {
+    stroke-dashoffset: 431.2;
+  }
+}/*# sourceMappingURL=scss.css.map */

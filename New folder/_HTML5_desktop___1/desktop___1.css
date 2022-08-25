@@ -1,0 +1,824 @@
+/*
+	@name desktop___1
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px; width: 1440px; height: 3807px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+
+#page_desktop___1_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 3807px;
+}
+
+#_bg__desktop___1_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 3807px;
+	background:rgba(0,0,0,1);
+}
+
+#nav {
+	top: 54px;
+	left: 358px;
+	width: 761.18px;
+	height: 40.76px;
+}
+
+#home {
+	top: 0px;
+	left: -3px;
+	width: 74.47px;
+	height: 31.15px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#about {
+	top: 0px;
+	left: 123px;
+	width: 76px;
+	height: 51.31px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#skills {
+	top: 0px;
+	left: 251px;
+	width: 67.12px;
+	height: 31.15px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#services {
+	top: 0px;
+	left: 370px;
+	width: 101px;
+	height: 31.15px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#portfolio {
+	top: 0px;
+	left: 522px;
+	width: 100px;
+	height: 51.31px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#contact {
+	top: 0px;
+	left: 674px;
+	width: 97.18px;
+	height: 31.15px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+#about_section {
+	top: 913px;
+	left: 164px;
+	width: 1050px;
+	height: 616px;
+}
+
+#about_ {
+	top: 0px;
+	left: 468px;
+	width: 167px;
+	height: 90.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 41px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#about_myself {
+	top: 45px;
+	left: 442px;
+	width: 199px;
+	height: 55px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#i_create_web_applications_using_html__css_and_javascript_in_the_client_side_typescript__react_and_next_js_has_a_front_end_frame_work_mongodb_mongoose_exprss_node_js_in_the_back__end_and_bit_of_ui_ux_design {
+	top: 254px;
+	left: -5px;
+	width: 453px;
+	height: 372.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 29px;
+	text-align: justified;
+	color:#FFFFFF;
+}
+
+
+#unsplash_xopaur_nagk {
+	top: 244px;
+	left: 611px;
+	width: 439px;
+	height: 372px;
+}
+
+#group_78 {
+	top: 340px;
+	left: 130px;
+	width: 1316.96px;
+	height: 618.12px;
+}
+#home_section {
+	top: 0px;
+	left: 0px;
+	width: 1316.96px;
+	height: 618.12px;
+}
+
+#i_am_a_full_stack_web_developer_and_a_ui_ux_designer__responsive_frameworks__databases__and_best_code_practices__my_objective_is_simply_to_be_the_best_web_developer_ {
+	top: 127px;
+	left: 640px;
+	width: 611.42px;
+	height: 512.12px;
+	overflow: hidden;
+	font-family: Phetsarath;
+	font-size: 30px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#hi__i_m_shimil_ {
+	top: 0px;
+	left: 750px;
+	width: 396.3px;
+	height: 90.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 41px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#ui___ux_desginer__web_developer {
+	top: 103px;
+	left: 555px;
+	width: 779px;
+	height: 74px;
+	overflow: hidden;
+	font-family: Noto Sans Malayalam UI;
+	font-size: 36px;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#unsplash_ymn_ty_mbn8 {
+	top: 94px;
+	left: 0px;
+	width: 456.97px;
+	height: 328px;
+}
+
+
+#skills_ {
+	top: 1687px;
+	left: 644px;
+	width: 239px;
+	height: 106.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 41px;
+	font-weight: bold;
+	text-align: justified;
+	color:#FFFFFF;
+}
+
+
+#my_skills {
+	top: 1732px;
+	left: 666px;
+	width: 78px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: justified;
+	color:#FFFFFF;
+}
+
+
+#rectangle_53 {
+	top: 1763px;
+	left: 202px;
+	width: 2px;
+	height: 2px;
+	background:rgba(217,217,217,1);
+}
+
+#footer {
+	top: 3497px;
+	left: 0px;
+	width: 1440px;
+	height: 310px;
+}
+
+#rectangle_50 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 310px;
+}
+
+#linkedin_square {
+	top: 3597px;
+	left: 645px;
+	width: 24px;
+	height: 105px;
+}
+
+#ellipse_1 {
+	top: 2718px;
+	left: 4278px;
+	width: 1px;
+	height: 1px;
+	-ms-border-radius: 0.5px / 0.5px;
+	-o-border-radius: 0.5px / 0.5px;
+	-moz-border-radius: 0.5px / 0.5px;
+	-webkit-border-radius: 0.5px / 0.5px;
+	border-radius: 0.5px / 0.5px;
+	background:rgba(217,217,217,1);
+}
+
+
+#services_ {
+	top: 321px;
+	left: 3471px;
+	width: 361px;
+	height: 106.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 41px;
+	font-weight: bold;
+	text-align: justified;
+	color:#FFFFFF;
+}
+
+
+#my_services {
+	top: 366px;
+	left: 3513px;
+	width: 107px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: justified;
+	color:#FFFFFF;
+}
+
+#service_list {
+	top: 512px;
+	left: 2956px;
+	width: 1240px;
+	height: 268px;
+}
+
+#dribbble_1 {
+	top: 3px;
+	left: 0px;
+	width: 288px;
+	height: 203px;
+}
+
+
+#static_websites {
+	top: 226px;
+	left: -3px;
+	width: 301px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#dribbble_1_ek1 {
+	top: 3px;
+	left: 322px;
+	width: 288px;
+	height: 203px;
+}
+
+
+#web_design {
+	top: 227px;
+	left: 378px;
+	width: 183px;
+	height: 52px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#web_apps {
+	top: 227px;
+	left: 756px;
+	width: 96px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#dribbble_1_ek2 {
+	top: 3px;
+	left: 952px;
+	width: 288px;
+	height: 203px;
+}
+
+
+#mern_stack_ {
+	top: 225px;
+	left: 1045px;
+	width: 109px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#unsplash_mr4jg4syof8 {
+	top: 0px;
+	left: 649px;
+	width: 290px;
+	height: 206px;
+}
+
+#page_desktop___3_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 3807px;
+}
+
+#_bg__desktop___3_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 3807px;
+	background:rgba(255,255,255,1);
+}
+
+#nav_ek1 {
+	top: 54px;
+	left: 358px;
+	width: 761.18px;
+	height: 40.76px;
+}
+
+#home_ek1 {
+	top: 0px;
+	left: -3px;
+	width: 74.47px;
+	height: 31.15px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#about_ek1 {
+	top: 0px;
+	left: 123px;
+	width: 76px;
+	height: 51.31px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#skills_ek1 {
+	top: 0px;
+	left: 251px;
+	width: 67.12px;
+	height: 31.15px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#services_ek1 {
+	top: 0px;
+	left: 370px;
+	width: 101px;
+	height: 31.15px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#portfolio_ek1 {
+	top: 0px;
+	left: 522px;
+	width: 100px;
+	height: 51.31px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#contact_ek1 {
+	top: 0px;
+	left: 674px;
+	width: 97.18px;
+	height: 31.15px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+#about_section_ek1 {
+	top: 913px;
+	left: 164px;
+	width: 1050px;
+	height: 616px;
+}
+
+#about__ek1 {
+	top: 0px;
+	left: 468px;
+	width: 167px;
+	height: 90.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 41px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#about_myself_ek1 {
+	top: 45px;
+	left: 442px;
+	width: 199px;
+	height: 55px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#i_create_web_applications_using_html__css_and_javascript_in_the_client_side_typescript__react_and_next_js_has_a_front_end_frame_work_mongodb_mongoose_exprss_node_js_in_the_back__end_and_bit_of_ui_ux_design_ek1 {
+	top: 254px;
+	left: -5px;
+	width: 453px;
+	height: 372.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 29px;
+	text-align: justified;
+	color:#000000;
+}
+
+
+#unsplash_xopaur_nagk_ek1 {
+	top: 244px;
+	left: 611px;
+	width: 439px;
+	height: 372px;
+}
+
+#group_78_ek1 {
+	top: 340px;
+	left: 130px;
+	width: 1316.96px;
+	height: 618.12px;
+}
+#home_section_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1316.96px;
+	height: 618.12px;
+}
+
+#i_am_a_full_stack_web_developer_and_a_ui_ux_designer__responsive_frameworks__databases__and_best_code_practices__my_objective_is_simply_to_be_the_best_web_developer__ek1 {
+	top: 127px;
+	left: 640px;
+	width: 611.42px;
+	height: 512.12px;
+	overflow: hidden;
+	font-family: Phetsarath;
+	font-size: 30px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#hi__i_m_shimil__ek1 {
+	top: 0px;
+	left: 750px;
+	width: 396.3px;
+	height: 90.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 41px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#ui___ux_desginer__web_developer_ek1 {
+	top: 103px;
+	left: 555px;
+	width: 779px;
+	height: 74px;
+	overflow: hidden;
+	font-family: Noto Sans Malayalam UI;
+	font-size: 36px;
+	text-align: center;
+	color:#000000;
+}
+
+
+#unsplash_ymn_ty_mbn8_ek1 {
+	top: 94px;
+	left: 0px;
+	width: 456.97px;
+	height: 328px;
+}
+
+
+#skills__ek1 {
+	top: 1687px;
+	left: 644px;
+	width: 239px;
+	height: 106.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 41px;
+	font-weight: bold;
+	text-align: justified;
+	color:#000000;
+}
+
+
+#my_skills_ek1 {
+	top: 1732px;
+	left: 666px;
+	width: 78px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: justified;
+	color:#000000;
+}
+
+
+#rectangle_53_ek1 {
+	top: 1763px;
+	left: 202px;
+	width: 2px;
+	height: 2px;
+	background:rgba(217,217,217,1);
+}
+
+#footer_ek1 {
+	top: 3497px;
+	left: 0px;
+	width: 1440px;
+	height: 310px;
+}
+
+#rectangle_50_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 1440px;
+	height: 310px;
+}
+
+#linkedin_square_ek1 {
+	top: 3597px;
+	left: 645px;
+	width: 24px;
+	height: 105px;
+}
+#servvice_section {
+	top: 2694px;
+	left: 126px;
+	width: 1240px;
+	height: 459px;
+}
+
+#services__ek1 {
+	top: 0px;
+	left: 515px;
+	width: 361px;
+	height: 106.5px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 41px;
+	font-weight: bold;
+	text-align: justified;
+	color:#000000;
+}
+
+
+#my_services_ek1 {
+	top: 45px;
+	left: 557px;
+	width: 107px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	text-align: justified;
+	color:#000000;
+}
+
+
+#dribbble_1_ek3 {
+	top: 194px;
+	left: 0px;
+	width: 288px;
+	height: 203px;
+}
+
+
+#static_websites_ek1 {
+	top: 417px;
+	left: -3px;
+	width: 301px;
+	height: 35px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#dribbble_1_ek4 {
+	top: 194px;
+	left: 322px;
+	width: 288px;
+	height: 203px;
+}
+
+
+#web_design_ek1 {
+	top: 418px;
+	left: 378px;
+	width: 183px;
+	height: 52px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#web_apps_ek1 {
+	top: 418px;
+	left: 756px;
+	width: 96px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#000000;
+}
+
+
+#dribbble_1_ek5 {
+	top: 194px;
+	left: 952px;
+	width: 288px;
+	height: 203px;
+}
+
+
+#mern_stack__ek1 {
+	top: 416px;
+	left: 1045px;
+	width: 109px;
+	height: 34px;
+	overflow: hidden;
+	font-family: Jost;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+
+#unsplash_mr4jg4syof8_ek1 {
+	top: 191px;
+	left: 649px;
+	width: 290px;
+	height: 206px;
+}
+
+
+
+/* Add your custom CSS here */
