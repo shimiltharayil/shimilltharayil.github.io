@@ -55,33 +55,37 @@
   -webkit-animation: anim_circle-css 3s linear forwards;
           animation: anim_circle-css 3s linear forwards;
 }
-.circle-scss {
-  -webkit-animation: anim_circle-scss 3s linear forwards;
-          animation: anim_circle-scss 3s linear forwards;
-}
-.circle-js {
-  -webkit-animation: anim_circle-js 3s linear forwards;
-          animation: anim_circle-js 3s linear forwards;
-}
-.circle-ts {
-  -webkit-animation: anim_circle-ts 3s linear forwards;
-          animation: anim_circle-ts 3s linear forwards;
+.circle-react {
+  -webkit-animation: anim_circle-react 3s linear forwards;
+          animation: anim_circle-react 3s linear forwards;
 }
 .circle-node {
   -webkit-animation: anim_circle-node 3s linear forwards;
           animation: anim_circle-node 3s linear forwards;
 }
-.circle-react {
-  -webkit-animation: anim_circle-react 3s linear forwards;
-          animation: anim_circle-react 3s linear forwards;
+.circle-express {
+  -webkit-animation: anim_circle-express 3s linear forwards;
+          animation: anim_circle-express 3s linear forwards;
 }
-.circle-angular {
-  -webkit-animation: anim_circle-angular 3s linear forwards;
-          animation: anim_circle-angular 3s linear forwards;
+.circle-mongo {
+  -webkit-animation: anim_circle-mongo 3s linear forwards;
+          animation: anim_circle-mongo 3s linear forwards;
 }
-.circle-vue {
-  -webkit-animation: anim_circle-vue 3s linear forwards;
-          animation: anim_circle-vue 3s linear forwards;
+.circle-js {
+  -webkit-animation: anim_circle-js 3s linear forwards;
+          animation: anim_circle-js 3s linear forwards;
+}
+.circle-git {
+  -webkit-animation: anim_circle-git 3s linear forwards;
+          animation: anim_circle-git 3s linear forwards;
+}
+.circle-figma {
+  -webkit-animation: anim_circle-figma 3s linear forwards;
+          animation: anim_circle-figma 3s linear forwards;
+}
+.circle-sass {
+  -webkit-animation: anim_circle-sass 3s linear forwards;
+          animation: anim_circle-sass 3s linear forwards;
 }
 
 .progressbar__text {
@@ -97,13 +101,13 @@
 
 @-webkit-keyframes anim_circle-html {
   to {
-    stroke-dashoffset: 234;
+    stroke-dashoffset: 400;
   }
 }
 
 @keyframes anim_circle-html {
   to {
-    stroke-dashoffset: 234;
+    stroke-dashoffset: 200;
   }
 }
 @-webkit-keyframes anim_circle-css {
@@ -116,73 +120,83 @@
     stroke-dashoffset: 234;
   }
 }
-@-webkit-keyframes anim_circle-scss {
-  to {
-    stroke-dashoffset: 356;
-  }
-}
-@keyframes anim_circle-scss {
-  to {
-    stroke-dashoffset: 356;
-  }
-}
-@-webkit-keyframes anim_circle-js {
-  to {
-    stroke-dashoffset: 356;
-  }
-}
-@keyframes anim_circle-js {
-  to {
-    stroke-dashoffset: 356;
-  }
-}
-@-webkit-keyframes anim_circle-ts {
-  to {
-    stroke-dashoffset: 356;
-  }
-}
-@keyframes anim_circle-ts {
-  to {
-    stroke-dashoffset: 356;
-  }
-}
-@-webkit-keyframes anim_circle-node {
-  to {
-    stroke-dashoffset: 308;
-  }
-}
-@keyframes anim_circle-node {
-  to {
-    stroke-dashoffset: 308;
-  }
-}
 @-webkit-keyframes anim_circle-react {
   to {
-    stroke-dashoffset: 387.2;
+    stroke-dashoffset: 130;
   }
 }
 @keyframes anim_circle-react {
   to {
+    stroke-dashoffset: 254;
+  }
+}
+@-webkit-keyframes anim_circle-node{
+  to {
+    stroke-dashoffset: 130;
+  }
+}
+@keyframes anim_circle-node {
+  to {
+    stroke-dashoffset: 200;
+  }
+}
+@-webkit-keyframes anim_circle-express {
+  to {
+    stroke-dashoffset: 106;
+  }
+}
+@keyframes anim_circle-express {
+  to {
+    stroke-dashoffset: 106;
+  }
+}
+@-webkit-keyframes anim_circle-mongo {
+  to {
+    stroke-dashoffset: 108;
+  }
+}
+@keyframes anim_circle-mongo {
+  to {
+    stroke-dashoffset: 106;
+  }
+}
+@-webkit-keyframes anim_circle-js {
+  to {
     stroke-dashoffset: 387.2;
   }
 }
-@-webkit-keyframes anim_circle-angular {
+@keyframes anim_circle-js {
   to {
-    stroke-dashoffset: 418;
+    stroke-dashoffset: 200;
   }
 }
-@keyframes anim_circle-angular {
+@-webkit-keyframes anim_circle-git{
   to {
-    stroke-dashoffset: 418;
+    stroke-dashoffset: 308;
   }
 }
-@-webkit-keyframes anim_circle-vue {
+@keyframes anim_circle-git {
   to {
-    stroke-dashoffset: 431.2;
+    stroke-dashoffset: 106;
   }
 }
-@keyframes anim_circle-vue {
+@-webkit-keyframes anim_circle-figma {
   to {
-    stroke-dashoffset: 431.2;
+    stroke-dashoffset: 200;
   }
-}/*# sourceMappingURL=scss.css.map */
+}
+@keyframes anim_circle-figma {
+  to {
+    stroke-dashoffset: 254;
+  }
+}
+@-webkit-keyframes anim_circle-sass {
+  to {
+    stroke-dashoffset: 200;
+  }
+}
+@keyframes anim_circle-sass {
+  to {
+    stroke-dashoffset: 254;
+  }
+}

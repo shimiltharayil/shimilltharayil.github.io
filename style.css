@@ -118,6 +118,7 @@ text-align: center;
 }
 .about_image{
     max-width: 50%;
+    position: fixed;
 }
 
                                                     /* SERVICES- SECTION */
@@ -155,14 +156,16 @@ transform:scale(1.1);
 
                                                         /* SKILLS-SECTION */
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+#carouselExampleControls{
+    padding-top: 10%;
+    
 }
- .col {
-  float: left;
-  width: 33.33%;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+.carousel-item{
+    text-align: center;
 }
 
 
