@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-                                                                    <!-- GOOGLE FONTS -->
+    <title>Shimil- Web Developer</title>
+      <link rel="shortcut icon" href="./website.png" type="image/x-icon">                                                              <!-- GOOGLE FONTS -->
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
@@ -26,8 +26,8 @@
         <li><a class="nav_texts" href="#about">About</a></li>
         <li><a class="nav_texts" href="#skills">Skills</a></li>
         <li><a class="nav_texts" href="#services">Services</a></li>
-        <li><a class="nav_texts" href="#portfolio">Portfolio</a></li>
-        <li><a class="nav_texts" href="#contact">Contact</a></li>
+        <!-- <li><a class="nav_texts" href="#portfolio">Portfolio</a></li> -->
+        <!-- <li><a class="nav_texts" href="#contact">Contact</a></li> -->
       </ul>
     </nav>
   </header>
@@ -39,12 +39,12 @@
         <h5>UI & UX desginer/ Web Developer</h5>
         <p id="intro__para">I am a Full-stack web developer and many different front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer.</p>
         
-        <button type="button" class="btn btn-dark btn-lg btn-down">  Hire Me <i class="fa-solid fa-briefcase"></i> </button>
-        <button type="button" class="btn btn-dark btn-lg btn-down">Contact Me <i class="fa-solid fa-phone"></i></button>
+        <!-- <button type="button" class="btn btn-dark btn-lg btn-down">  Hire Me <i class="fa-solid fa-briefcase"></i> </button>
+        <button type="button" class="btn btn-dark btn-lg btn-down">Contact Me <i class="fa-solid fa-phone"></i></button> -->
         
       </div>
       <div class="col-lg-6">
-     <img src="./New folder/_HTML5_desktop___1/skins/unsplash_ymn_ty_mbn8_ek1.png" alt="">
+     <img class="bio_image" src="./New folder/_HTML5_desktop___1/skins/unsplash_ymn_ty_mbn8_ek1.png" alt="">
       </div>
 
 
@@ -57,14 +57,14 @@
           <h1 class="main__heading">About.</h1>
           <span>About Myself.</span>
       
-      <div class="flex-container">
+      <div class="row m-lg-auto">
 
-  <div class="flex-child first">
+  <div class="col-lg-6">
    <img class="about_image" src="./New folder/_HTML5_desktop___1/skins/unsplash_xopaur_nagk.png" alt="">
   </div>
   
-  <div class="flex-child seconed">
-    <p id="para__about">I create Web applications using HTML, CSS and JavaScript in the client-side,Typescript, React and Next.js has a Front-End frame work,MongoDb,Mongoose,Exprss,Node.js in the back- End and bit of UI/UX design using Figma </p>
+  <div class="col-lg-6">
+    <p id="para__about">I create Web applications using HTML, CSS and JavaScript in the client-side,Typescript, React and Next.js has a Front-End frame work,MongoDb,Mongoose,Express,Node.js in the back- End and bit of UI/UX design using Figma </p>
     
   </div>
   
@@ -76,10 +76,10 @@
 
                                                                    <!-- SKILLS- SECTION -->
 <section id="skills" >
-     <h1 class="main__heading">Skills.</h1>
+     <h1 id="heading_skills" class="main__heading">Skills.</h1>
      <span>My Skills</span>
 
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" class="carousel slide hidden-xs"  >
   <div class="carousel-inner">
     <div class="carousel-item active">
       <h2>FRONT-END.</h2>
@@ -231,6 +231,40 @@
   </a>
 </div>
 
+<div class="skills_mobiles">
+   <h2>Web-Development</h2>
+     <div class="progress_barr flex-container">
+       
+  
+        <div class="service__item">
+           <div class="progressbar">
+              <svg class="progressbar__svg">
+                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-html shadow-html"> </circle>
+              </svg>
+              <span class="progressbar__text shadow-html"><h4>60%</h4></span>
+            </div>
+            <h4>Front-End</h4>
+        </div>
+        <div class="service__item">
+        
+          <div class="progressbar">
+              <svg class="progressbar__svg">
+                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-css shadow-css"> </circle>
+              </svg>
+              <span class="progressbar__text shadow-css"><h4>50%</h4></span>
+            </div>
+            <h4>Back-End</h4>
+        </div>
+        <!-- <div class="service__item">
+         <div class="progressbar">
+              <svg class="progressbar__svg">
+                <circle cx="80" cy="80" r="70" class="progressbar__svg-circle circle-css shadow-css"> </circle>
+              </svg>
+              <span class="progressbar__text shadow-css"><h4>60%</h4></span>
+            </div>
+            <h4>JavaScript</h4>
+        </div> -->
+
 
 
      
@@ -286,6 +320,8 @@
   </section>
                                                      <!-- CONTACT-SECTION -->
 
+
+      
 
 
  
