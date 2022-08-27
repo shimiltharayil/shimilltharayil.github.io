@@ -50,13 +50,14 @@ text-align: center;
 .nav__links li a{
     transition: all 0.33 ease;
 }
-.nav__links a:hover{
+.nav__l#inks a:hover{
     color: black;
     font-weight: bolder;
 }
 .nav-class{
      margin-left: 202px;
 }
+
 .about-para{
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -80,6 +81,7 @@ text-align: center;
  .bio_image{
     width: 70%;
  }
+ 
 
                                                         /* ABOUT SECTION */
 .about__section{
@@ -271,7 +273,7 @@ section{
 }
 .icons{
   margin: 10px 0px;
-  color: #fff;
+  color:#fff;
   padding: 10%;
 }
 
@@ -288,6 +290,16 @@ i:hover{
 #instagram{
     color:#fff
     
+}
+*{
+    background-color:var(--primary-color);
+    
+}
+:root {
+    --primary-color:#fff;
+}
+.dark{
+    --primary-color:#000;
 }
      @media only screen and (max-width:768px){
         nav ul{
@@ -814,6 +826,9 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.icons{
+    color: #fff;
 }
 #circle{
     fill: none;
