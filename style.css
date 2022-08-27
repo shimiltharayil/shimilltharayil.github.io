@@ -134,7 +134,7 @@ text-align: center;
 .flex-container {
     display: flex; 
     padding:5% 10px;
-    justify-content:center;
+   
 
 }
 .service__item{
@@ -463,9 +463,10 @@ svg{
     display:inline-block;
 }
 
-.pro{
+.container{
     display: flex;
     flex-direction: column;
+   
   
    
 
