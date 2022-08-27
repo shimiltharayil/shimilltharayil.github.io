@@ -291,16 +291,6 @@ i:hover{
     color:#fff
     
 }
-*{
-    background-color:var(--primary-color);
-    
-}
-:root {
-    --primary-color:#fff;
-}
-.dark{
-    --primary-color:#000;
-}
      @media only screen and (max-width:768px){
         nav ul{
             width: 100%;
