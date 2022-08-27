@@ -55,7 +55,7 @@ text-align: center;
     font-weight: bolder;
 }
 .nav-class{
-     margin-left: 202px;
+     margin-left: 202%;
 }
 .about-para{
     font-family: 'Raleway', sans-serif;
@@ -134,7 +134,7 @@ text-align: center;
 .flex-container {
     display: flex; 
     padding:5% 10px;
-   
+    justify-content:center;
 
 }
 .service__item{
@@ -292,21 +292,28 @@ i:hover{
      @media only screen and (max-width:768px){
         nav ul{
             width: 100%;
-            
-            position: absolute;
+            justify-content: center;
+            position:absolute;
             top: 75px;
             right: 0;
             padding-left:1%;
             z-index:3
+            p
+        }
+        nav{
+            padding-bottom: 10%;
         }
         h1{
-            padding-top: 10%;
+            padding-top:20%;
         }
         #intro__para{
             text-align: center;
         }
+        body{
+            padding-left: 10%;
+        }
         .row{
-    width: 100%;
+    width: auto;
     padding-left: 0%;
     height: 300px;
     padding-top: 10%;
@@ -322,25 +329,19 @@ i:hover{
     margin-top: 10%;
         }
         #about{
-            padding-top: 20%;
+            padding-top: 50%;
         }
         p{
-  padding: 5%;
+  
   color: #1d1d1e;
- 
-  justify-content: center;
+ text-align: center;
 }
 section{
-    padding: 5% 10%;
+    padding: 50% 0%;
     text-align: center;
     height: 600px;
 }
-        #heading_skills{
-            padding-top: 20%;
-        }
-        * {
-  box-sizing: border-box;
-}
+    
 
 .container {
   display: flex;
@@ -463,14 +464,7 @@ svg{
     display:inline-block;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-   
-  
-   
 
-}
 
 
 
@@ -478,22 +472,22 @@ svg{
 
 
     nav ul{
-    width: 100%;
+    width: a;
             
             position: absolute;
             top: 75px;
             right: 0;
-            padding: left 25%;
+            padding-left:1%;
             z-index:3
         }
         h1{
-            padding-top: 20%;
+            padding-top: 10%;
         }
         #intro__para{
             text-align: center;
         }
         .row{
-    
+    width:auto;
     padding-left: 0%;
     height: 300px;
     padding-top: 10%;
@@ -506,15 +500,11 @@ svg{
             
         }
         .about__section{
-    margin-top: 50%;
+    margin-top: 10%;
         }
         #about{
             padding-top: 20%;
         }
-        #services{
-            height: 100px;
-        }
-       
         p{
   padding: 5%;
   color: #1d1d1e;
