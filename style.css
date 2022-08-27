@@ -463,7 +463,13 @@ svg{
     display:inline-block;
 }
 
+.pro{
+    display: flex;
+    flex-direction: column;
+  
+   
 
+}
 
 
 
@@ -476,17 +482,17 @@ svg{
             position: absolute;
             top: 75px;
             right: 0;
-            padding-left:1%;
+            padding: left 25%;
             z-index:3
         }
         h1{
-            padding-top: 10%;
+            padding-top: 20%;
         }
         #intro__para{
             text-align: center;
         }
         .row{
-    width: 100%;
+    
     padding-left: 0%;
     height: 300px;
     padding-top: 10%;
@@ -499,11 +505,15 @@ svg{
             
         }
         .about__section{
-    margin-top: 10%;
+    margin-top: 50%;
         }
         #about{
             padding-top: 20%;
         }
+        #services{
+            height: 100px;
+        }
+       
         p{
   padding: 5%;
   color: #1d1d1e;
