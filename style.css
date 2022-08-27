@@ -128,7 +128,7 @@ text-align: center;
 
 
 .service-section{
-    padding: 10% 5%;
+    padding: 0% 5%;
   
 }
 .flex-container {
@@ -145,7 +145,7 @@ text-align: center;
     
 }
 .service__image{
-    width: 60%;
+    width: 70%;
 }
 .service__image:hover{
    
@@ -155,6 +155,8 @@ transform:scale(1.1);
 .service__image_title{
     padding-top: 5%;
     font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
 }
 
                                                         /* SKILLS-SECTION */
@@ -454,7 +456,7 @@ svg{
 
 
 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+@media screen and (max-width: 181px)  { 
     
     
 #skills_mobiles{
@@ -585,8 +587,12 @@ section{
 .carousel-item{
     text-align: center;
 }
-
-
+*{
+    padding-left: 10%;
+}
+#footer_section{
+    background-color:#1d1d1e;
+}
 .outer{
     height: 80px;
     width: 80px;
@@ -630,6 +636,36 @@ svg{
 
 
      }            
+     
+
+.flex-parent {
+  display: flex;
+}
+
+.flex-item {
+  width: max-content;
+  padding: .5em;
+  background: #efefef;
+  border: 3px solid #333;
+}
+
+/* =========================
+   GENERAL STYLES 
+   NOT RELATED TO THE TUTORIAL
+============================ */
+
+
+
+
+
+
+
+.container {
+  width: min(95%, 45rem);
+  margin: 0 auto;
+}
+
+
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -800,6 +836,14 @@ svg{
      }            
 .skills_mobiles{
     display: flex;
+    padding-right: 20%;
+
+}
+.skills_mobiles_heading{
+    margin-top:10px ;
+}
+footer{
+    width: 100%;
 }
 
 
