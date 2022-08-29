@@ -357,9 +357,11 @@ i:hover{
     padding-top: 10%;
 }
 .service__item{
-     left: auto;
      
+    flex-direction: column;
     justify-content: center;
+    padding-bottom: 5%;
+    left: auto;
 }
 
 
