@@ -353,8 +353,11 @@ i:hover{
 #footer_section{
     padding-top: 10%;
 }
-.service__item{
+.service__item_{
     padding-top: 10%;
+}
+.service__item{
+    left: auto;
 }
 
    .bio_image{
