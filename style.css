@@ -133,8 +133,8 @@ text-align: center;
     padding: 0% 5%;
   
 }
-.flex-container {
-    display: flex; 
+.main_div {
+    display: flex;
     padding:5% 10px;
     justify-content:center;
 
@@ -334,7 +334,29 @@ i:hover{
     justify-content: center;
      
 }
-        .bio_image{
+
+.main_div{
+    flex-direction: column;
+    justify-content: center;
+     padding-bottom: 5%;
+     
+    
+
+}
+#services{
+    padding-bottom: 20%;
+    height: fit-content;
+    
+    justify-content: center;
+}
+#footer_section{
+    padding-top: 10%;
+}
+.service__item{
+    padding-top: 10%;
+}
+
+   .bio_image{
             width: 70%;
             padding-left: 30%;
             
@@ -351,7 +373,8 @@ i:hover{
  text-align: center;
 }
 section{
-    /* padding: 50% 0%; */
+    padding-top: 10%;
+    padding-bottom: 10%;
     text-align: center;
     height: 600px;
 }
@@ -359,7 +382,7 @@ section{
 
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   min-height: 100vh;
   
@@ -485,7 +508,7 @@ svg{
 
 
     nav ul{
-    width: a;
+    width: 1px;;
             
             position: absolute;
             top: 75px;
@@ -527,7 +550,7 @@ svg{
 section{
     padding: 5% 10%;
     text-align: center;
-    height: 600px;
+  
 }
         #heading_skills{
             padding-top: 20%;
