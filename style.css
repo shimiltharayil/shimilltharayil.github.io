@@ -297,7 +297,15 @@ i:hover{
         margin: 0;       
         
      }
+     #about{
+        padding-top: 30%;
+     }
+#para__about{
+    font-size: .5rem;
+    text-align: center;
+    justify-content: center;
 
+}
         nav ul{
             width: 100%;
             justify-content: center;
@@ -838,6 +846,13 @@ svg{
     top: 0;
     left: 0;
 }
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0 ;
+    padding: 0;
+}
+
  
     .carousel{
         display: none;
@@ -852,7 +867,12 @@ svg{
 .skills_mobiles_heading{
     margin-top:10px ;
 }
+#para__about{
+    font-size: 0.5rem;
+    text-align: center;
+    justify-content: center;
 
+}
 
     }
     
@@ -864,5 +884,11 @@ svg{
    @media only screen and (min-width: 768px){
       .skills_mobiles{
     display: none;
+}
+#para__about{
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+
 }
    }
