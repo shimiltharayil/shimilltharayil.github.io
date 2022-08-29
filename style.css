@@ -357,7 +357,8 @@ i:hover{
     padding-top: 10%;
 }
 .service__item{
-
+     left: auto;
+     
     justify-content: center;
 }
 
