@@ -216,7 +216,10 @@ svg{
 .skills_mobile{
     display: none;
 }
+.footer_section{
+    background-color: #1b1b1d;
 
+}
 
 
                                                                                         /* CONTACT-SECTION */
@@ -243,7 +246,6 @@ p{
   padding: 5%;
   color: #1d1d1e;
   text-align: center;
-  justify-content: center;
 }
 
 h5{
@@ -256,7 +258,7 @@ header{
     display: flex;
     text-align: center;
     padding: 30px 10%;
-justify-content: space-between;
+    justify-content: space-between;
 }
 section{
     padding: 5% 10%;
@@ -265,12 +267,7 @@ section{
 }
 
 
-#footer{
-  background-color: #1d1d1e;
-  padding: 5%;
-  text-align: center;
-  justify-content: space-between;
-}
+
 .icons{
   margin: 10px 0px;
   color:#fff;
@@ -291,6 +288,10 @@ i:hover{
     color:#fff
     
 }
+
+
+
+
      @media only screen and (max-width:768px){
         body{
         margin: 0;       
@@ -597,9 +598,7 @@ section{
 *{
     padding-left: 10%;
 }
-#footer_section{
-    background-color:#1d1d1e;
-}
+
 .outer{
     height: 80px;
     width: 80px;
