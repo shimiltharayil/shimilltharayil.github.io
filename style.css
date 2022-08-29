@@ -267,7 +267,7 @@ section{
 
 #footer{
   background-color: #1d1d1e;
-  padding: 5% 15%;
+  padding: 5%;
   text-align: center;
   justify-content: space-between;
 }
@@ -292,6 +292,11 @@ i:hover{
     
 }
      @media only screen and (max-width:768px){
+        body{
+        margin: 0;       
+        
+     }
+
         nav ul{
             width: 100%;
             justify-content: center;
@@ -300,7 +305,7 @@ i:hover{
             right: 0;
             padding-left:1%;
             z-index:3
-            p
+            
         }
         nav{
             padding-bottom: 10%;
@@ -467,7 +472,6 @@ svg{
 }
 
 
-.site-wrap {overflow-x: hidden;}
 
 
 
@@ -636,13 +640,11 @@ svg{
  
     .carousel{
         display: none;
-
-
      }            
      
-
+.servi
 .flex-parent {
-  display: flex;
+  display:none;
 }
 
 .flex-item {
@@ -671,10 +673,13 @@ svg{
 
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 180px) {
     
 
-
+.flex-container{
+    visibility: hidden;
+   
+}
  nav ul{
             width: 100%;
             
@@ -847,9 +852,6 @@ svg{
 }
 .skills_mobiles_heading{
     margin-top:10px ;
-}
-footer{
-    width: 100%;
 }
 
 
