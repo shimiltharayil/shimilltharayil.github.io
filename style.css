@@ -298,7 +298,7 @@ i:hover{
         
      }
      #about{
-        padding-top: 30%;
+        padding-top: 10%;
      }
 #para__about{
     font-size: .5rem;
@@ -325,11 +325,9 @@ i:hover{
         #intro__para{
             text-align: center;
         }
-        body{
-            padding-left: 10%;
-        }
+       
         .row{
-    width: auto;
+    width:100%;
     padding-left: 0%;
     height: 300px;
     padding-top: 10%;
@@ -353,7 +351,7 @@ i:hover{
  text-align: center;
 }
 section{
-    padding: 50% 0%;
+    /* padding: 50% 0%; */
     text-align: center;
     height: 600px;
 }
@@ -797,6 +795,9 @@ section{
     padding-top: 10%;
     
 }
+footer{
+    width: 100%;
+}
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   filter: invert(1);
@@ -884,6 +885,10 @@ body{
    @media only screen and (min-width: 768px){
       .skills_mobiles{
     display: none;
+    
+}
+footer{
+    width: 100%;
 }
 #para__about{
     font-size: 1rem;
